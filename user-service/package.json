@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "axios": "^1.7.9",
+    "nacos": "^2.6.0",
+    "openai": "^4.85.3"
+  }
+}
