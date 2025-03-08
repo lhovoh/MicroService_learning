@@ -1,22 +1,3 @@
-server:
-#  port: 8081
-  port: 0
-
 spring:
-  application:
-    name: user-service
-  cloud:
-    nacos:
-      discovery:
-        server-addr: localhost:8848
-        username: nacos
-        password: nacos
-  eureka:
-    client:
-      service-url:
-        defaultZone: http://localhost:8761/eureka
-
-  datasource:
-    url: jdbc:mysql://localhost:3306/user_center?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
-    username: root
-    password: 2003098
+  profiles:
+    active: dev

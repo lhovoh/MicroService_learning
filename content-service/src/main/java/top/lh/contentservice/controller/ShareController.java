@@ -2,6 +2,7 @@ package top.lh.contentservice.controller;
 
 
 
+import com.alibaba.nacos.api.model.v2.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,6 +19,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/share")
 public class ShareController {
+
     @Autowired
     private ShareMapper shareMapper;
 
@@ -27,11 +29,29 @@ public class ShareController {
     @GetMapping("/{id}")
     public Map<String, Object> getShareById(@PathVariable Integer id) {
         Share share = shareMapper.selectById(id);
-        User author = userClient.getUserById(share.getUserId());
+        Result<User> userResult = userClient.getUserById(share.getUserId());
+        User author = userResult.getData();
 
         Map<String, Object> result = new HashMap<>();
         result.put("share", share);
         result.put("author", author);
         return result;
     }
+
+//    @Autowired
+//    private ShareMapper shareMapper;
+//
+//    @Autowired
+//    private UserClient userClient;
+//
+//    @GetMapping("/{id}")
+//    public Map<String, Object> getShareById(@PathVariable Integer id) {
+//        Share share = shareMapper.selectById(id);
+//        User author = userClient.getUserById(share.getUserId());
+//
+//        Map<String, Object> result = new HashMap<>();
+//        result.put("share", share);
+//        result.put("author", author);
+//        return result;
+//    }
 }
