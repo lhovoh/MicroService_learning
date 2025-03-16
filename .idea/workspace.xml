@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60ff1799-1b60-4f5f-a415-c2c7f4169dd6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/content-service/src/main/java/top/lh/contentservice/client/OcrServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content-service/src/main/java/top/lh/contentservice/client/OcrServiceFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content-service/src/main/java/top/lh/contentservice/controller/ContentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-service/src/main/java/top/lh/pythonservice/Flask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-service/src/main/java/top/lh/pythonservice/PythonServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-service/src/test/java/top/lh/pythonservice/PythonServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MicroService_learning.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-service/AiNode.js" beforeDir="false" afterPath="$PROJECT_DIR$/ai-service/AiNode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ai-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-service/src/main/java/top/lh/aiservice/AiServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-service/src/main/java/top/lh/aiservice/AiServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai-service/src/main/java/top/lh/aiservice/controller/AIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ai-service/src/main/java/top/lh/aiservice/controller/AIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/content-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-service/src/main/java/top/lh/contentservice/ContentServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/content-service/src/main/java/top/lh/contentservice/ContentServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-service/src/main/java/top/lh/contentservice/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/content-service/src/main/java/top/lh/contentservice/client/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-service/src/main/java/top/lh/contentservice/controller/ShareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/content-service/src/main/java/top/lh/contentservice/controller/ShareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/content-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacosConfig-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nacosConfig-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacosConfig-service/src/main/java/top/lh/nacosconfigservice/config/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacosConfig-service/src/main/java/top/lh/nacosconfigservice/config/DatabaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2uNsHcyQ2XZNTMxPhGL9a2iFO3p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-14705d77f0bb-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.25659.43" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60ff1799-1b60-4f5f-a415-c2c7f4169dd6" name="Changes" comment="" />
+      <created>1742100280169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742100280169</updated>
+    </task>
+    <servers />
+  </component>
+</project>

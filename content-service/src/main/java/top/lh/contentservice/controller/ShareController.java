@@ -2,6 +2,7 @@ package top.lh.contentservice.controller;
 
 
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.nacos.api.model.v2.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -27,8 +28,14 @@ public class ShareController {
     private UserClient userClient;
 
     @GetMapping("/{id}")
+    @SentinelResource(value = "/share/{id}")
     public Map<String, Object> getShareById(@PathVariable Integer id) {
         Share share = shareMapper.selectById(id);
+//        try {
+//            Thread.sleep(500);
+//        }catch (InterruptedException e){
+//            throw new RuntimeException(e);
+//        }
         Result<User> userResult = userClient.getUserById(share.getUserId());
         User author = userResult.getData();
 
